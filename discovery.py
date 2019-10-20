@@ -11,18 +11,13 @@ __version__ = '0.1.0'
 log = logging.getLogger('nat.discovery')
 
 STUN_SERVERS = (
-    'stun.ekiga.net',
-    'stun.ideasip.com',
-    'stun.voiparound.com',
-    'stun.voipbuster.com',
-    'stun.voipstunt.com',
-    'stun.voxgratia.org'
+    'stun.l.google.com',
 )
 
 stun_servers_list = STUN_SERVERS
 
 DEFAULTS = {
-    'stun_port': 3478,
+    'stun_port': 19302,
     'source_ip': '0.0.0.0',
     'source_port': 54320
 }
